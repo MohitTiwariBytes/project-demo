@@ -48,7 +48,13 @@ const Card = ({ title, description, price, imgUrl }) => {
           <span>₹{price}</span>
         </div>
         <div className="buttons">
-          <button>Buy Now</button>
+          <button
+            onClick={() => {
+              window.location.replace("/checkout");
+            }}
+          >
+            Buy Now
+          </button>
           <button id="addToCartBtn" onClick={handleAddToCart}>
             <i className="fa-solid fa-bag-shopping fa-2x"></i>
           </button>
