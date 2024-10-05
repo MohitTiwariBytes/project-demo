@@ -1,0 +1,86 @@
+
+.card{
+    height: 400px;
+    width: 250px;
+    background: rgb(212, 212, 212);
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.productImg{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h2, .title span{
+    margin-left: 10px;
+}
+
+.productImg img{
+    border-radius: 23px;
+    height: 150px;
+    width: 95%;
+    object-fit: cover;
+    margin-top: 10px;
+
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+    width: 95%;
+    height: 100%;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.buttons button{
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.description span{
+    margin-left: 10px;
+}
+
+#addToCartBtn{
+    width: 0px;
+    padding: 23px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.buttons button i:active{
+    transform: scale(0.8);
+
+}

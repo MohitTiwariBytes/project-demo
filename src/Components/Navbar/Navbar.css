@@ -1,0 +1,78 @@
+.main-navbar {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 0;
+}
+
+.navbar {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartIcon {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  transition: all 0.2s ease;
+  gap: 8px;
+}
+
+.cartIcon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cartIcon:active {
+  transform: scale(0.8);
+}
+
+.cartIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconsNavbar {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  align-items: center;
+}
+
+.smallTextIcon {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+#rex {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.userIcon {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.userIcon:hover {
+  transform: scale(1.1);
+}
+
+.userIcon:active {
+  transform: scale(0.8);
+}

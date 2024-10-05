@@ -1,0 +1,53 @@
+.top {
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  background: white;
+}
+
+.topText {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.price {
+  margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.price button {
+  padding: 13px;
+  border-radius: 13px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.price button:hover {
+  transform: scale(1.1);
+}
+
+.price button:active {
+  transform: scale(0.8);
+}
+
+.products {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 200px;
+}
